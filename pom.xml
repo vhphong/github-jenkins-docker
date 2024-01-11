@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pnk</groupId>
-    <artifactId>github-jenkins-docker</artifactId>
+    <artifactId>github-jenkins-docker-integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>github-jenkins-docker</name>
     <description>Demo project for Spring Boot with Jenkins and Docker</description>
@@ -36,6 +36,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>docker-jenkins-integration-sample</finalName>
     </build>
 
 </project>
