@@ -10,4 +10,9 @@ public class GithubJenkinsDockerApplication {
         SpringApplication.run(GithubJenkinsDockerApplication.class, args);
     }
 
+
+    public static void message() {
+        System.out.println("Hello from Github-Jenkins-Docker project!!!");
+    }
+
 }
