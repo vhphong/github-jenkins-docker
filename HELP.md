@@ -51,8 +51,6 @@ PS C:\Windows\system32> docker image ls
 	REPOSITORY                                      TAG       IMAGE ID       CREATED          SIZE
 	phongvo0222/docker-jenkins-integration-sample   latest    2b5df2d99cfe   12 minutes ago   524MB
 	phongvo0222/docker-jenkins-integration-sample   <none>    d85c9ae4ea1d   17 minutes ago   524MB
-PS C:\Windows\system32> docker run -p 8080:8080 phongvo0222/docker-jenkins-integration-sample
-	docker: Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:8080 -> 0.0.0.0:0: listen tcp 0.0.0.0:8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
 PS C:\Windows\system32> docker run -p 8081:8080 phongvo0222/docker-jenkins-integration-sample
 
 	  .   ____          _            __ _ _
