@@ -25,6 +25,11 @@ The following guides illustrate how to use some features concretely:
   https://www.youtube.com/watch?v=mszE-OCI2V4
 
 ### Executing Steps
+* Whenever a change was made in the master branch (a PR merged or a direct commit), go ahead to check in the Jenkins server @ http://localhost:8080/job/github-jenkins-docker-integration/
+* If the test in Jenkins is passing, then the image of "github-jenkins-docker-integration" is successfully created in Jenkins.
+* Open the PowerShell (run as Administrator if needed), run the commands below in the Executing Command Lines section.
+
+### Executing Command Lines
 ```shell
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
