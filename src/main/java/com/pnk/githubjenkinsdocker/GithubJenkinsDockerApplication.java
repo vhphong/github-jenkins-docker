@@ -19,6 +19,8 @@ public class GithubJenkinsDockerApplication {
 
     @GetMapping("/message")
     public static String message() {
+        System.out.println("Welcome to Github-Jenkins-Docker project!!!");
+
         return "Hello from Github-Jenkins-Docker project!!!";
     }
 
