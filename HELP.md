@@ -1,11 +1,14 @@
 # Read Me First
+
 The following was discovered as part of building this project:
 
-* The original package name 'com.pnk.github-jenkins-docker' is invalid and this project uses 'com.pnk.githubjenkinsdocker' instead.
+* The original package name 'com.pnk.github-jenkins-docker' is invalid and this project uses '
+  com.pnk.githubjenkinsdocker' instead.
 
 # Getting Started
 
 ### Reference Documentation
+
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
@@ -14,6 +17,7 @@ For further reference, please consider the following sections:
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.1/reference/htmlsingle/index.html#web)
 
 ### Guides
+
 The following guides illustrate how to use some features concretely:
 
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
@@ -21,15 +25,20 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
 ### References
+
 * Building Docker Images using Jenkins step by step | Devops Integration Live Demo | JavaTechie
   https://www.youtube.com/watch?v=mszE-OCI2V4
 
 ### Executing Steps
-* Whenever a change was made in the master branch (a PR merged or a direct commit), go ahead to check in the Jenkins server @ http://localhost:8080/job/github-jenkins-docker-integration/
-* If the test in Jenkins is passing, then the image of "github-jenkins-docker-integration" is successfully created in Jenkins.
+
+* Whenever a change was made in the master branch (a PR merged or a direct commit), go ahead to check in the Jenkins
+  server @ http://localhost:8080/job/github-jenkins-docker-integration/
+* If the test in Jenkins is passing, then the image of "github-jenkins-docker-integration" is successfully created in
+  Jenkins.
 * Open the PowerShell (run as Administrator if needed), run the commands below in the Executing Command Lines section.
 
 ### Executing Command Lines
+
 * Open Jenkins service
   ```shell
   PS C:\Program Files\Jenkins> java -jar .\Jenkins.war
